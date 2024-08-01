@@ -1,0 +1,45 @@
+{
+    "name": "ahmed127/emoperations",
+    "type": "library",
+    "description": "Modules Operations",
+    "keywords": [
+        "ahmed127",
+        "emoperations"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Abdalla EL-Gammal",
+            "email": "ahmedmabdalla91@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/ahmed127/emoperations",
+    "repositories": [
+
+        {
+            "type": "vcs",
+            "name": "ahmed127/emoperations",
+            "version": "dev-main",
+            "url": "https://github.com/ahmed127/emoperations.git"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ahmed127/emoperations":"dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ahmed127\\emoperations\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmed127\\emoperations\\emoperationsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
